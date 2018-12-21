@@ -1,0 +1,26 @@
+{
+    "name": "finlark/laravelcontact",
+    "description": "This package send email to admin and save data into database when someone use contact part",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "dhaval",
+            "email": "dhavalnaphade5@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Laravelcontact\\Contact\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Laravelcontact\\Contact\\ContactServiceProvider"
+            ]
+        }
+    }
+}
